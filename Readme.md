@@ -21,6 +21,8 @@ differences with the key file. An example use is:
 
 `$ python wordCountTest.py declaration.txt myOutput.txt declarationKey.txt`
 
+When running this script, it will ask for file name. Just right it as declaration.txt (or whatever the file name is).
+
 The re regular expression library and python dictionaries should be
 used in your program. 
 
