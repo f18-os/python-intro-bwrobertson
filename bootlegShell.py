@@ -10,7 +10,7 @@ class bootlegShell(Cmd):
 
 
 	def do_test(self, args):
-		#The shell itself, follow the prompts on screen. Output file must be created beforehand.
+		"""The shell itself, follow the prompts on screen. Output file must be created beforehand."""
 		pid = os.getpid()
 		print("Input file name...or press enter")
 		fileName = input()
@@ -71,3 +71,5 @@ if __name__ == '__main__':
     shell = bootlegShell()
     shell.shell = '> '
     shell.cmdloop('Starting prompt...')
+
+#The do_hello and do_quit methods were based on the ones at https://coderwall.com/p/w78iva/give-your-python-program-a-shell-with-the-cmd-module
